@@ -23,7 +23,7 @@ Open terminal and clone/git pull the repo into any local directory
 ```
 $ git clone https://github.com/adavarski/IRIS-C19-Analytics
 ```
-## data source
+### data source
 The data is taken from [Johns Hopkins repo](https://github.com/CSSEGISandData/COVID-19)
 ```
 Example: 11 November 2020
@@ -32,7 +32,7 @@ $ curl https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data
 $ for i in `seq 1 11`; do curl https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_daily_reports/11-$i-2020.csv -o covid-11-$i-2020.csv;done
 ```
 
-Build & Run:
+### Build & Run:
 
 ```
 $ docker-compose build
@@ -45,7 +45,7 @@ Creating iris-c19-analytics_iris_1 ... done
 
 ```
 
-Browser: 
+Browser(check): 
 
 http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Countries.dashboard
 http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Worldmap.dashboard
