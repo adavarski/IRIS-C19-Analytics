@@ -39,6 +39,7 @@ Open the terminal in this directory and run:
 $ docker-compose build
 $ docker-compose up -d
 
+Example: 
 $ docker-compose up -d
 Creating network "iris-c19-analytics_default" with the default driver
 Creating iris-c19-analytics_iris_1 ... done
