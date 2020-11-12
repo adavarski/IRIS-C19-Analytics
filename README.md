@@ -1,4 +1,4 @@
-# IRIS Covid-19 analytics
+# IRIS Covid-19 Analytics
 
 ## How it works
 The dashboards are running on InterSystems IRIS 2019.4 Community Edition.
