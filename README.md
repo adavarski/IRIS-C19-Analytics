@@ -52,3 +52,9 @@ http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Countries.dashboard
 http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Worldmap.dashboard
 
 Screenshots:
+
+<img src="https://github.com/adavarski/IRIS-C19-Analytics/blob/main/screenshots/Countries-C-19.png?raw=true" width="650">
+<img src="https://github.com/adavarski/IRIS-C19-Analytics/blob/main/screenshots/Worldmap-C-19.png?raw=true" width="650">
+<img src="https://github.com/adavarski/IRIS-C19-Analytics/blob/main/screenshots/Top10-C19.png?raw=true" width="650">
+
+
