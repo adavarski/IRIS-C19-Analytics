@@ -4,7 +4,6 @@
 The dashboards are running on InterSystems IRIS 2019.4 Community Edition.
 It uses IRIS Analytics module and DSW as a representation layer
 
-## How it was developed
 [AnalyzeThis](https://openexchange.intersystems.com/package/AnalyzeThis) module has been used to generate the class and the cube.
 Pivots and Dashboards were built manually using [InterSystems IRIS Analytics](https://docs.intersystems.com/irislatest/csp/docbook/Doc.View.cls?KEY=D2GS)
 [DSW](https://openexchange.intersystems.com/package/DeepSeeWeb) is used to design representation layer
