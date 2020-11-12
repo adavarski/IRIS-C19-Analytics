@@ -50,6 +50,7 @@ Browser:
 
 http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Countries.dashboard
 http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Worldmap.dashboard
+http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/bubble%20chart.dashboard
 
 Screenshots:
 
