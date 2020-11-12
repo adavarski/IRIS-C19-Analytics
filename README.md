@@ -1,14 +1,5 @@
 # IRIS Covid-19 analytics
 
-## data source
-The data is taken from [Johns Hopkins repo](https://github.com/CSSEGISandData/COVID-19)
-```
-Example: 11 November 2020
-$ cd data
-$ curl https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv -o time_series_19-covid-Confirmed.csv
-$ for i in `seq 1 11`; do curl https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_daily_reports/11-$i-2020.csv -o covid-11-$i-2020.csv;done
-```
-
 ## How it works
 The dashboard is running on InterSystems IRIS 2019.4 Community Edition
 It uses IRIS Analytics module and DSW as a representation layer
@@ -32,8 +23,16 @@ Open terminal and clone/git pull the repo into any local directory
 ```
 $ git clone https://github.com/adavarski/IRIS-C19-Analytics
 ```
+## data source
+The data is taken from [Johns Hopkins repo](https://github.com/CSSEGISandData/COVID-19)
+```
+Example: 11 November 2020
+$ cd data
+$ curl https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv -o time_series_19-covid-Confirmed.csv
+$ for i in `seq 1 11`; do curl https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_daily_reports/11-$i-2020.csv -o covid-11-$i-2020.csv;done
+```
 
-Open the terminal in this directory and run:
+Build & Run:
 
 ```
 $ docker-compose build
