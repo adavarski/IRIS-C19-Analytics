@@ -22,7 +22,7 @@ Open terminal and clone/git pull the repo into any local directory
 ```
 $ git clone https://github.com/adavarski/IRIS-C19-Analytics
 ```
-### data source
+### Data Source
 The data is taken from [Johns Hopkins repo](https://github.com/CSSEGISandData/COVID-19)
 ```
 Example: 11 November 2020
