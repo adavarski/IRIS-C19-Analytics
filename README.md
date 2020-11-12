@@ -30,7 +30,7 @@ This will export pivots and dashboards into /src/dfi folder of the repo.
 Open terminal and clone/git pull the repo into any local directory
 
 ```
-$ git clone git@github.com:adavarskI/IRIS-C19-Analytics.git
+$ git clone https://github.com/adavarski/IRIS-C19-Analytics
 ```
 
 Open the terminal in this directory and run:
