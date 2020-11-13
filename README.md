@@ -44,7 +44,7 @@ Creating iris-c19-analytics_iris_1 ... done
 
 ```
 
-Browser(check): 
+Browser: 
 
 http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Countries.dashboard
 http://localhost:32916/dsw/index.html#/IRISAPP/Covid19/Worldmap.dashboard
