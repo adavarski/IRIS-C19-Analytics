@@ -1,6 +1,6 @@
 # IRIS Covid-19 Analytics
 
-## Introduction (How it works)
+## Introduction (how it works)
 The dashboards are running on InterSystems IRIS 2019.4 Community Edition.
 It uses IRIS Analytics module and DSW as a representation layer
 
